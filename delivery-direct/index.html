@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delivery Direct</title>
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/services.css" />
+    <link rel="stylesheet" href="css/testimonials.css" />
+    <link rel="stylesheet" href="css/faq.css" />
+    <link rel="stylesheet" href="css/contact-us.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="main-nav">
+        <img
+          class="logo"
+          src="img/logo-red-background-sized.jpg"
+          alt="Logo of Delivery Direct Logistics"
+        />
+        <ul class="main-nav-list">
+          <li>
+            <a href="#" class="main-nav-link main-nav-link--home">Home</a>
+          </li>
+          <li>
+            <a href="#" class="main-nav-link main-nav-link--about-us"
+              >About us</a
+            >
+          </li>
+          <li>
+            <a href="#services" class="main-nav-link main-nav-link--services"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a href="#contact-us" class="main-nav-link main-nav-link-contact-us"
+              >Contact us</a
+            >
+          </li>
+        </ul>
+
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <img
+          class="hero-img"
+          src="img//vans.jpg"
+          alt="A line of branded delivery direct logistics van's"
+        />
+        <h1 class="hero-title">
+          Specialists in Temperature<br />
+          Controlled Transport
+        </h1>
+        <div class="hero-background-layer"></div>
+        <div class="hero-btns">
+          <a href="#contact-us"
+            ><button class="btn btn--quote">Get a quote</button></a
+          >
+          <a href="#learn-more">
+            <button class="btn btn--learn-more">Learn more</button></a
+          >
+        </div>
+      </section>
+
+      <section class="section-testimonials">
+        <h4 class="testimonial-title">Trusted by</h4>
+        <div class="testimonial-logo-container">
+          <img class="testimonial-logo" src="/img/nhs.png" alt="NHS logo" />
+          <img
+            class="testimonial-logo"
+            src="/img/seven-trent.png"
+            alt="Seven trent logo"
+          />
+        </div>
+      </section>
+
+      <section class="section-services" id="services">
+        <h2 class="services-title">All the <span>services</span> you need.</h2>
+        <p class="service-description">
+          Based in Taunton, Delivery Direct Logistics specialise in temperature
+          controlled transport across various sectors.
+        </p>
+        <div class="grid grid--6-cols grid--2-rows">
+          <div class="service-item service-item--top">
+            <img
+              class="service-icon"
+              src="/img/european-union.png"
+              alt="european flag"
+            />
+            <p class="service-item-title">European delivery</p>
+            <p class="service-item-description">
+              Dedicated temperature controlled delivery service to all European
+              countries.
+            </p>
+          </div>
+
+          <div class="service-item service-item--top">
+            <img
+              class="service-icon"
+              src="/img/pharmaceutical.png"
+              alt="illustration of pharmaceuticals"
+            />
+            <p class="service-item-title">Pharmaceutical</p>
+            <p class="service-item-description">
+              Reliable and efficient delivery for all your pharmaceutical needs.
+            </p>
+          </div>
+
+          <div class="service-item service-item--top">
+            <img
+              class="service-icon"
+              src="/img/chemical-lab.png"
+              alt="illustration of chemicals"
+            />
+            <p class="service-item-title">Analytical</p>
+            <p class="service-item-description">
+              Specialized and secure transport for analytical samples and
+              equipment.
+            </p>
+          </div>
+
+          <div
+            class="service-item service-item--bottom service-item--bottom-left"
+          >
+            <img
+              class="service-icon"
+              src="/img/first-aid-kit.png"
+              alt="illustration of a first aid kit"
+            />
+            <p class="service-item-title">Medical</p>
+            <p class="service-item-description">
+              Trusted and timely deliveries ensuring safe medical transport.
+            </p>
+          </div>
+
+          <div
+            class="service-item service-item--bottom service-item--bottom-right"
+          >
+            <img
+              class="service-icon"
+              src="/img/hazardous-material.png"
+              alt="Dangerous goods warning"
+            />
+            <p class="service-item-title">Dangerous Goods</p>
+            <p class="service-item-description">
+              Secure and compliant delivery service for hazardous materials.
+            </p>
+          </div>
+        </div>
+        <!-- for smooth scroll -->
+        <div id="learn-more"></div>
+      </section>
+
+      <section class="section-faq">
+        <h2 class="faq-title">Frequently Asked Questions</h2>
+        <div class="faq-boxes">
+          <div class="faq-box">
+            <div class="faq-question-box faq-question-box1">
+              <p class="faq-question">Why is my package on fire?</p>
+              <span class="material-symbols-outlined expand-img expand-img--1">
+                add
+              </span>
+            </div>
+            <div class="faq-content faq-content1 display-none">
+              <p>
+                We understand that this is an unusual and concerning situation.
+                While our delivery process is designed to be safe and efficient,
+                several factors can lead to unexpected incidents. Delivery
+                vehicles, like any other machinery, can experience technical
+                issues that might result in overheating or fires. Additionally,
+                our delivery vehicles share the road with other drivers, and
+                accidents involving other vehicles or objects can sometimes
+                cause fires.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-box">
+            <div class="faq-question-box faq-question-box2">
+              <p class="faq-question">Do you offer next-day delivery?</p>
+              <span class="material-symbols-outlined expand-img expand-img--2">
+                add
+              </span>
+            </div>
+            <div class="faq-content faq-content2 display-none">
+              <p>
+                Yes, we offer next-day delivery for most items! To qualify,
+                please ensure you place your order before our cut-off time,
+                typically 5 PM local time. Availability may vary based on your
+                location and the specific items ordered. During checkout, you
+                will see the next-day delivery option if it's available for your
+                order. We strive to get your items to you as quickly and
+                efficiently as possible. If you have any further questions about
+                next-day delivery or need assistance with your order, please
+                contact our customer service team.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-box">
+            <div class="faq-question-box faq-question-box3">
+              <p class="faq-question">What is your return policy?</p>
+              <span class="material-symbols-outlined expand-img expand-img--3">
+                add
+              </span>
+            </div>
+            <div class="faq-content faq-content3 display-none">
+              <p>
+                We want you to be completely satisfied with your purchase. If
+                for any reason you are not, we offer a hassle-free return
+                policy. You can return most items within 30 days of receipt for
+                a full refund or exchange. Items must be returned in their
+                original condition and packaging. To initiate a return, simply
+                log into your account, navigate to the "Order History" section,
+                and select the item you wish to return. Follow the prompts to
+                print a return shipping label. If you need any assistance or
+                have questions about the return process, please contact our
+                customer service team. We're here to help!
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-box">
+            <div class="faq-question-box faq-question-box4">
+              <p class="faq-question">How can I change or cancel my order?</p>
+              <span class="material-symbols-outlined expand-img expand-img--4">
+                add
+              </span>
+            </div>
+            <div class="faq-content faq-content4 display-none">
+              <p>
+                We understand that sometimes plans change, and you may need to
+                modify or cancel your order. If you need to make changes or
+                cancel your order, please contact our customer service team as
+                soon as possible. If your order has not yet been processed for
+                shipment, we will do our best to accommodate your request. Once
+                an order has been shipped, changes or cancellations may not be
+                possible, and you may need to follow our return policy after
+                receiving the item. For the quickest assistance, please have
+                your order number ready when you contact us.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- for smooth scroll -->
+        <div id="contact-us"></div>
+      </section>
+      <section class="section-contact-us-form">
+        <div class="grid-contact-form form-style">
+          <div class="grid grid--mobile">
+            <form class="contact-us-form grid grid--2-cols" action="#">
+              <h2 class="get-quote-title">Get a Quote</h2>
+              <div class="label-and-box label-and-box--full-name">
+                <label for="full-name">Full Name</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+
+              <div class="label-and-box label-and-box--email">
+                <label for="email">Email Address</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+
+              <div class="label-and-box label-and-box--hear-from">
+                <label>Where did you hear from us?</label>
+                <select id="select-where" required>
+                  <option value="">Please choose one option:</option>
+                  <option value="Friends">Friends and family</option>
+                  <option value="Facebook">Facebook</option>
+                  <option value="OurVans">Our vans</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+
+              <button class="btn btn--contact-submit">Submit</button>
+            </form>
+          </div>
+
+          <img
+            class="contact-us-img"
+            src="/img/managing-director.jpg"
+            alt="managing director standing, facing the camera"
+          />
+        </div>
+      </section>
+    </main>
+    <footer class="grid grid--4-cols footer--grid container">
+      <h2 class="footer-title">We're ready when YOU are!</h2>
+      <div class="footer-content">
+        <strong class="content-info-title">Contact Information</strong>
+        <p class="content-info">01823 255999</p>
+        <p class="content-info">Unit 35 Livingstone Way, Taunton TA2 6BD</p>
+      </div>
+      <div class="footer-content">
+        <strong class="content-info-title">Services</strong>
+        <p class="content-info">European Delivery</p>
+        <p class="content-info">Pharmaceutical</p>
+        <p class="content-info">Analytical</p>
+        <p class="content-info">Medical</p>
+        <p class="content-info">Dangerous Goods</p>
+      </div>
+      <div class="footer-content">
+        <strong class="content-info-title">Privacy Policy</strong>
+        <p class="content-info">Our privacy and cookie policy</p>
+      </div>
+      <div class="footer-content">
+        <img
+          class="footer-logo"
+          src="/img/logo-red-background-sized.jpg"
+          alt="Logo of Delivery Direct Logistics"
+        />
+        <p class="content-info content-info-copyright">
+          COPYRIGHT © <span class="year">2024</span> DELIVERY DIRECT LOGISTICS.
+          ALL RIGHTS RESERVED.
+        </p>
+      </div>
+      <div class="footer-made-by">
+        <p>
+          <a class="footer-made-by-text" href="https://github.com/BradderH">
+            Designed and developed by Bradley Haskell</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

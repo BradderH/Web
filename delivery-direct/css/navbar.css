@@ -1,0 +1,86 @@
+/****************************** 
+  General Nav Bar Styling
+******************************/
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rgba(0, 0, 0, 0.1); */
+
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.48),
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0)
+  );
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 999;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 7rem;
+  align-items: center;
+  margin-right: 10rem;
+}
+
+/****************************** 
+            Logo
+******************************/
+.logo {
+  height: 9rem;
+  padding: 0.8rem;
+  align-items: center;
+  margin-left: 1.5%;
+}
+
+/****************************** 
+    Nav Bar Text Decorations
+******************************/
+.main-nav-link {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+
+  cursor: pointer;
+  transition: all 0.3s;
+
+  display: block;
+}
+
+/** Increases Nav text font size, and keeps text in place. Should be changed if not liked **/
+.main-nav-link:link,
+.main-nav-link:visited {
+  color: #fff;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #ffc9c9;
+}
+
+.main-nav-link--home:hover,
+.main-nav-link--about-us:hover,
+.main-nav-link--services:hover,
+.main-nav-link-contact-us:hover {
+  font-size: 2rem;
+}
+
+.main-nav-link--about-us:hover {
+  margin-left: -0.89rem;
+}
+
+.main-nav-link--services:hover {
+  margin-left: -0.86rem;
+}
+
+.main-nav-link-contact-us:hover {
+  margin-left: -1.09rem;
+}

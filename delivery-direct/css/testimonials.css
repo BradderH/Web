@@ -1,0 +1,23 @@
+.section-testimonials {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  margin-bottom: 12rem;
+}
+
+.testimonial-title {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #999;
+}
+
+.testimonial-logo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 3rem;
+}
+
+.testimonial-logo {
+  width: 10%;
+}
